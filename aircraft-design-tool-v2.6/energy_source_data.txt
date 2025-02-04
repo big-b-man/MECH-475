@@ -1,0 +1,12 @@
+type	            specific_energy(J/kg)    Operation_EI_CO2(kg/kg)   Production_EI_CO2(kg/kwh)    Production_EI_CO2(kg/kW)      Max_hours_operation(hrs)       Max_num_cycles (cycles) 
+jet-fuel            43200000                 3.15                      0.3150                       ---                           ---                            ---
+kerosene            43280000                 3.15                      ---                          ---                           ---                            ---
+LH2-electrolysis    133200000                0.0                       0.1440                       ---                           ---                            ---
+LH2-natural-gas     133200000                0.0                       0.5400                       ---                           ---                            ---
+FT-SPK              43200000                 3.15                      0.1105                       ---                           ---                            ---
+HEFA                43700000                 3.15                      0.2646                       ---                           ---                            ---
+ATJ-SPK             43200000                 3.15                      0.1094                       ---                           ---                            ---
+Li-ion              900000                   0.0                       394                          ---                           ---                            1000
+Li-S                1800000                  0.0                       273                          ---                           ---                            1000
+Li-air              9720000                  0.0                       ---                          ---                           ---                            1000
+fuel-cell           ---                      ---                       ---                          24.2                          5000                           ---

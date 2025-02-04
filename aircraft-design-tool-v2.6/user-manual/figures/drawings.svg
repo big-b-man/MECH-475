@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.44672mm"
+   height="25.200447mm"
+   viewBox="0 0 100.44673 25.200447"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="drawings.svg"
+   inkscape:export-filename="energy_network.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.2938725"
+     inkscape:cx="218.72325"
+     inkscape:cy="-287.50901"
+     inkscape:window-width="1440"
+     inkscape:window-height="2489"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       originx="99.139562"
+       originy="-178.30338" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1630"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1628" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2-5-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8-6-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2-4-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8-8-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2-4-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8-8-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2-0-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8-7-2" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(99.139542,-178.30338)">
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.131963"
+       id="rect113"
+       width="35.281395"
+       height="9.398736"
+       x="95.485413"
+       y="29.083082" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="102.59301"
+       y="34.85062"
+       id="text277"><tspan
+         sodipodi:role="line"
+         id="tspan275"
+         style="stroke-width:0.264583"
+         x="102.59301"
+         y="34.85062">New Concept</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 112.78481,38.607108 v 3.904088 H 82.275073 v 3.759494"
+       id="path1107" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 112.71251,42.511196 h 30.22565 v 3.703429"
+       id="path1163" />
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.131963"
+       id="rect113-5"
+       width="35.281395"
+       height="9.398736"
+       x="64.973061"
+       y="46.320763" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="72.796364"
+       y="52.190548"
+       id="text277-4"><tspan
+         sodipodi:role="line"
+         id="tspan275-1"
+         style="stroke-width:0.264583"
+         x="72.796364"
+         y="52.190548" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651"
+       transform="translate(-13.803041,-0.71571324)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6371"><tspan
+           style="text-align:center;text-anchor:middle;fill:#000000;stroke:none"
+           id="tspan6369">Number of </tspan></tspan><tspan
+         x="81.985001"
+         y="54.579899"
+         id="tspan6375"><tspan
+           style="text-align:center;text-anchor:middle;fill:#000000;stroke:none"
+           id="tspan6373">passengers</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.131963"
+       id="rect113-5-9"
+       width="35.281395"
+       height="9.398736"
+       x="125.29746"
+       y="46.320763" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-1"
+       transform="translate(52.247066,1.1246913)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6379"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6377">Powerplant</tspan></tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 143.04925,55.857997 v 3.904088 h -30.50974 v 3.759494"
+       id="path1107-6" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 142.97695,59.762085 h 30.22565 v 3.703429"
+       id="path1163-5" />
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.131963"
+       id="rect113-5-0"
+       width="35.281395"
+       height="9.398736"
+       x="95.237503"
+       y="63.571651" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5"
+       transform="translate(16.461403,16.739665)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6383"><tspan
+           style="text-align:center;text-anchor:middle;fill:#000000;stroke:none"
+           id="tspan6381">Max. Power </tspan></tspan><tspan
+         x="81.985001"
+         y="54.579899"
+         id="tspan6387"><tspan
+           style="text-align:center;text-anchor:middle;fill:#000000;stroke:none"
+           id="tspan6385">Installed</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.131963"
+       id="rect113-5-9-3"
+       width="35.281395"
+       height="9.398736"
+       x="155.56192"
+       y="63.571651" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-1-0"
+       transform="translate(83.431713,16.841909)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6391"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6389">Pollutant </tspan></tspan><tspan
+         x="81.985001"
+         y="54.579899"
+         id="tspan6395"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6393">Emissions</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.0933497"
+       id="rect113-7"
+       width="15.616351"
+       height="10.625673"
+       x="-103.84422"
+       y="80.755646"
+       inkscape:export-filename="recharge_cruise.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:11.2475;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-99.050156"
+       y="86.378593"
+       id="text277-5"
+       transform="translate(-0.55357491,-1.4284167)"><tspan
+         x="-99.050156"
+         y="86.378593"
+         id="tspan6397">Fuel </tspan><tspan
+         x="-99.050156"
+         y="90.34734"
+         id="tspan6399">tank</tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.131963"
+       id="rect113-5-0-3-5"
+       width="35.281395"
+       height="9.398736"
+       x="-76.007942"
+       y="81.389595" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0"
+       transform="translate(-152.47052,36.292751)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6403"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6401">Turbogenerator</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.0946875"
+       id="rect113-7-8"
+       width="15.616351"
+       height="10.932407"
+       x="-103.77036"
+       y="97.606133" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:13.1272;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-93.338104"
+       y="86.378593"
+       id="text277-5-8"
+       transform="translate(-9.18028,15.601747)"><tspan
+         x="-93.338104"
+         y="86.378593"
+         id="tspan6407"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan6405">Battery </tspan></tspan><tspan
+         x="-93.338104"
+         y="90.34734"
+         id="tspan6411"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan6409">packs</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.124448"
+       id="rect113-5-0-3-5-9"
+       width="31.377306"
+       height="9.398736"
+       x="-32.484577"
+       y="81.643692" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1"
+       transform="translate(-109.81473,36.546851)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6415"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6413">Electric motor</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.101728"
+       id="rect113-5-0-3-5-9-3"
+       width="20.9664"
+       height="9.398736"
+       x="4.748868"
+       y="81.788292" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-3"
+       transform="translate(-73.593456,36.69145)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6419"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6417">Propeller</tspan></tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       d="m -88.298602,85.909274 h 11.481464"
+       id="path1407"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#marker1630)"
+       d="M -59.668614,91.114728 V 103.11619 H -87.394879"
+       id="path1626"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#TriangleStart-2)"
+       d="m -40.749361,86.053871 h 7.493919"
+       id="path1407-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#TriangleStart-2-5)"
+       d="M -1.2254069,86.152463 H 4.0272755"
+       id="path1407-2-1"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-dasharray:0.8, 0.8;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1994"
+       width="136.20935"
+       height="16.628531"
+       x="-106.95147"
+       y="77.811905" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:39.0901;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-3-0"
+       transform="translate(-88.111414,25.484796)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6423"><tspan
+           style="font-style:italic;-inkscape-font-specification:'sans-serif Italic';fill:#000000;stroke:none"
+           id="tspan6421">energy_network_prop</tspan></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#da2e08;stroke-width:0.206422;stroke-miterlimit:3.9;stroke-dasharray:0.825686, 0.825686;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1994-2"
+       width="70.122597"
+       height="34.407406"
+       x="-108.97262"
+       y="76.296852" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:44.4401;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-3-0-5"
+       transform="translate(-191.04984,63.938782)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6427"><tspan
+           style="font-style:italic;-inkscape-font-specification:'sans-serif Italic';fill:#000000;stroke:none"
+           id="tspan6425">energy_network_recharge</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:13.1272;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-93.338104"
+       y="86.378593"
+       id="text277-5-8-6"
+       transform="translate(35.237323,13.194991)"><tspan
+         x="-93.338104"
+         y="86.378593"
+         id="tspan6431"><tspan
+           style="font-style:italic;-inkscape-font-specification:'sans-serif Italic'"
+           id="tspan6429">k</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:13.1272;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-93.338104"
+       y="86.378593"
+       id="text277-5-8-6-3"
+       transform="translate(54.593696,3.1480015)"><tspan
+         x="-93.338104"
+         y="86.378593"
+         id="tspan6435"><tspan
+           style="font-style:italic;-inkscape-font-specification:'sans-serif Italic'"
+           id="tspan6433">1-k</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.0933497"
+       id="rect113-7-7"
+       width="15.616351"
+       height="10.625673"
+       x="-102.64287"
+       y="129.97906"
+       inkscape:export-filename="hybrid_cruise.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:11.2475;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-99.050156"
+       y="86.378593"
+       id="text277-5-0"
+       transform="translate(0.6477778,47.794996)"><tspan
+         x="-99.050156"
+         y="86.378593"
+         id="tspan6437">Fuel </tspan><tspan
+         x="-99.050156"
+         y="90.34734"
+         id="tspan6439">tank</tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.131963"
+       id="rect113-5-0-3-5-0"
+       width="35.281395"
+       height="9.398736"
+       x="-74.806587"
+       y="130.61301" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-9"
+       transform="translate(-151.26917,85.516164)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6443"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6441">Turbogenerator</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.0946875"
+       id="rect113-7-8-1"
+       width="15.616351"
+       height="10.932407"
+       x="-22.462889"
+       y="149.72147" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:13.1272;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-93.338104"
+       y="86.378593"
+       id="text277-5-8-7"
+       transform="translate(72.127207,67.717078)"><tspan
+         x="-93.338104"
+         y="86.378593"
+         id="tspan6447"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan6445">Battery </tspan></tspan><tspan
+         x="-93.338104"
+         y="90.34734"
+         id="tspan6451"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan6449">packs</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.124448"
+       id="rect113-5-0-3-5-9-4"
+       width="31.377306"
+       height="9.398736"
+       x="3.1306007"
+       y="130.57791" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-1"
+       transform="translate(-74.199553,85.481072)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6455"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6453">Electric motor</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.101728"
+       id="rect113-5-0-3-5-9-3-6"
+       width="20.9664"
+       height="9.398736"
+       x="40.364048"
+       y="130.7225" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-3-9"
+       transform="translate(-37.97828,85.625671)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6459"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6457">Propeller</tspan></tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#TriangleStart-5)"
+       d="m -87.097247,135.13269 h 11.48146"
+       id="path1407-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#TriangleStart-2-4)"
+       d="m -39.548008,135.27729 h 16.422716"
+       id="path1407-2-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#TriangleStart-2-5-6)"
+       d="m 34.389773,135.08669 h 5.252683"
+       id="path1407-2-1-3"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.22301;stroke-miterlimit:3.9;stroke-dasharray:0.892038, 0.892038;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1994-6"
+       width="169.588"
+       height="16.60552"
+       x="-105.73862"
+       y="127.04682" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:39.0901;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-3-0-2"
+       transform="translate(-185.95826,74.852805)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6463"><tspan
+           style="font-style:italic;-inkscape-font-specification:'sans-serif Italic';fill:#000000;stroke:none"
+           id="tspan6461">energy_network_fuel</tspan></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#da2e08;stroke-width:0.230249;stroke-miterlimit:3.9;stroke-dasharray:0.920994, 0.920994;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1994-2-3"
+       width="87.305679"
+       height="34.383579"
+       x="-24.327517"
+       y="128.85789" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:44.4401;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-3-0-5-7"
+       transform="translate(-107.13963,116.34331)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6467"><tspan
+           style="font-style:italic;-inkscape-font-specification:'sans-serif Italic';fill:#000000;stroke:none"
+           id="tspan6465">energy_network_battery</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:13.1272;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-93.338104"
+       y="86.378593"
+       id="text277-5-8-6-5"
+       transform="translate(80.082821,60.683983)"><tspan
+         x="-93.338104"
+         y="86.378593"
+         id="tspan6471"><tspan
+           style="font-style:italic;-inkscape-font-specification:'sans-serif Italic'"
+           id="tspan6469">k</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:13.1272;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-93.338104"
+       y="86.378593"
+       id="text277-5-8-6-3-9"
+       transform="translate(59.424738,52.473659)"><tspan
+         x="-93.338104"
+         y="86.378593"
+         id="tspan6475"><tspan
+           style="font-style:italic;-inkscape-font-specification:'sans-serif Italic'"
+           id="tspan6473">1-k</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.0946875"
+       id="rect113-7-8-1-7"
+       width="15.616351"
+       height="10.932407"
+       x="-22.361673"
+       y="130.17685" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:22.5259;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-93.338104"
+       y="86.378593"
+       id="text277-5-8-7-5"
+       transform="translate(75.264936,50.196794)"><tspan
+         x="-93.338104"
+         y="86.378593"
+         id="tspan6477">PDM</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#TriangleStart-2-4-4)"
+       d="m -14.567759,149.78738 -0.06199,-8.03852"
+       id="path1407-2-5-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:3.9;stroke-opacity:1;marker-end:url(#TriangleStart-2-4-7)"
+       d="M -6.7010826,135.1008 H 2.3833909"
+       id="path1407-2-5-4"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.0946875"
+       id="rect113-7-8-1-70"
+       width="15.616351"
+       height="10.932407"
+       x="-99.139542"
+       y="178.30338" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:13.1272;display:inline;fill:#000000;stroke-width:0.264583"
+       x="-93.338104"
+       y="86.378593"
+       id="text277-5-8-7-7"
+       transform="translate(-4.5494457,96.298988)"><tspan
+         x="-93.338104"
+         y="86.378593"
+         id="tspan6481"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan6479">Battery </tspan></tspan><tspan
+         x="-93.338104"
+         y="90.34734"
+         id="tspan6485"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan6483">packs</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.124448"
+       id="rect113-5-0-3-5-9-4-0"
+       width="31.377306"
+       height="9.398736"
+       x="-66.326614"
+       y="178.66122" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-1-7"
+       transform="translate(-145.08819,133.76888)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6489"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6487">Electric motor 1</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.124448"
+       id="rect113-5-0-3-5-9-4-0-0"
+       width="31.377306"
+       height="9.398736"
+       x="-66.158539"
+       y="194.10509" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-1-7-8"
+       transform="translate(-144.92011,149.21274)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6493"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6491">Electric motor 2</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.108188"
+       id="rect113-5-0-3-5-9-4-0-2"
+       width="23.713722"
+       height="9.398736"
+       x="-22.574614"
+       y="178.57497" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-1-7-2"
+       transform="translate(-101.33619,133.68263)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6497"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6495">Propeller 1</tspan></tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke-width:0.108188"
+       id="rect113-5-0-3-5-9-4-0-0-4"
+       width="23.713722"
+       height="9.398736"
+       x="-22.406538"
+       y="194.01883" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;white-space:pre;inline-size:28.2454;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="81.985001"
+       y="50.611149"
+       id="text2651-5-8-0-1-1-7-8-2"
+       transform="translate(-101.16811,149.12649)"><tspan
+         x="81.985001"
+         y="50.611149"
+         id="tspan6501"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan6499">Propeller 2</tspan></tspan></text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart-2)"
+       d="m -83.293159,183.33269 h 15.833252"
+       id="path859"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart-2-0)"
+       d="m -34.890441,182.97032 h 11.232238"
+       id="path859-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart-2-0-2)"
+       d="M -34.639728,198.79955 H -23.40749"
+       id="path859-5-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart-2)"
+       d="m -75.340384,183.33269 v 15.47176 h 8.146988"
+       id="path3651"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>

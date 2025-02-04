@@ -1,0 +1,311 @@
+{
+    "concept": {
+        "categories": {
+            "name": "New Concept",
+            "pairs": [
+                [
+                    1,
+                    0.14286
+                ],
+                [
+                    7,
+                    1
+                ]
+            ],
+            "categories": [
+                {
+                    "name": "Number of Passengers",
+                    "pairs": [
+                        [
+                            1,
+                            0.11111,
+                            9
+                        ],
+                        [
+                            9,
+                            1,
+                            0.11111
+                        ],
+                        [
+                            0.11111,
+                            9,
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "name": "Powerplant",
+                    "pairs": [
+                        [
+                            1,
+                            0.125
+                        ],
+                        [
+                            8,
+                            1
+                        ]
+                    ],
+                    "categories": [
+                        {
+                            "name": "Max Power Installed",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.14286,
+                                    9
+                                ],
+                                [
+                                    7,
+                                    1,
+                                    9
+                                ],
+                                [
+                                    0.11111,
+                                    0.11111,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Pollutant Emissions",
+                            "pairs": [
+                                [
+                                    1,
+                                    4,
+                                    0.11111
+                                ],
+                                [
+                                    0.25,
+                                    1,
+                                    0.11111
+                                ],
+                                [
+                                    9,
+                                    9,
+                                    1
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "designs": [
+            {
+                "name": "Helicopter"
+            },
+            {
+                "name": "Aircraft"
+            },
+            {
+                "name": "Paper Plane"
+            }
+        ]
+    },
+    "mission": {
+        "segments": [
+            {
+                "name": "A",
+                "type": "vertical_climb",
+                "energy_network": "Electric Energy Network",
+                "velocity": 5,
+                "altitude": [
+                    0,
+                    300
+                ]
+            },
+            {
+                "name": "B",
+                "type": "hover",
+                "energy_network": "Electric Energy Network",
+                "altitude": 300.0,
+                "time": 10.0 
+            },
+            {
+                "name": "C",
+                "type": "climb",
+                "energy_network": "Electric Energy Network",
+                "velocity": 30,
+                "angle": 5,
+                "altitude": [300,1200]
+            },
+            {
+                "name": "D",
+                "type": "cruise",
+                "energy_network": "Electric Energy Network",
+                "velocity": 30,
+                "range": 40000,
+                "altitude": 1200
+            },
+            {
+                "name": "E",
+                "type": "descent",
+                "angle": -5,
+                "velocity": 35,
+                "altitude": [1200,300]
+            },
+            {
+                "name": "F",
+                "type": "hover",
+                "energy_network": "Electric Energy Network",
+                "altitude": 300,
+                "time": 10
+            },
+            {
+                "name": "G",
+                "type": "vertical_descent",
+                "energy_network": "Electric Energy Network",
+                "velocity": -4,
+                "altitude": [
+                    300,
+                    0
+                ]
+            }
+        ]
+    },
+    "vehicle": {
+        "components": [
+            {
+                "name": "Aircraft",
+                "type": "aircraft.rotary_wing",
+                "mass": 0,
+                "number": 1,
+                "rotary_wing": {
+                    "lift_to_drag_ratio": 3,
+                    "equivalent_wetted_area": 0.93
+                },
+                "position": {
+                    "cg": [
+                        [
+                            1.5,
+                            -0.6
+                        ]
+                    ]
+                }
+            },
+
+            {
+                "name": "Passenger",
+                "type": "mass.point",
+                "mass": 100,
+                "number": 2,
+                "position": {
+                    "cg": [
+                        [
+                            1.5,
+                            -0.6
+                        ],
+                        [
+                            1.5,
+                            0.6
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Empty Mass",
+                "type": "mass.empty",
+                "mass": 0,
+                "material": "composites",
+                "equation": {
+                    "type": "ax^(1+c)",
+                    "a": 0.92,
+                    "c": -0.05
+                }
+            },
+            {
+                "name": "Fuselage",
+                "type": "fuselage",
+                "interf_factor": 1.0,
+                "diameter": 2.2,
+                "length": 8.0,
+                "mass": 0,
+                "diameters": [1,1.8,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1]
+            },
+            {
+                "name": "Battery",
+                "type": "energy.electric",
+                "source_type": "Li-S",
+                "efficiency": 0.92,
+                "usable_fraction": 0.80,
+                "reserve": 0.15,
+                "number_packs": {
+                    "series": 3,
+                    "parallel": 6
+                },
+                "volt": 12,
+                "mass": 0,
+                "position": {
+                    "cg": [
+                        [
+                            5,
+                            0
+                        ]
+                    ]
+                },
+                "recharge_location": "BC_Canada"
+            },
+            {
+                "name": "Propeller",
+                "type": "driver.prop",
+                "number": 4,
+                "number_blades": 2,
+                "radius": 1.5,
+                "rotor_solidity": 0.08,
+                "induced_power_factor": 1.15,
+                "base_drag_coefficient": 0.02,
+                "tip_velocity": 200,
+                "efficiency": 0.75,
+                "coaxial": "No",
+                "ducted": "No",
+                "mass": 0,
+                "position": {
+                    "cg": {
+                        "vtol":[
+                            [7.5,-2.5],
+                            [7.5,2.5],
+                            [3.6,-2.5],
+                            [3.6,2.5]
+                        ]
+                    }
+                }
+            },
+            {
+                "name": "Electric Motor",
+                "type": "motor.prop",
+                "number": 4,
+                "efficiency": 0.98,
+                "mass": 0,
+                "max_power": 200000,
+                "position": {
+                    "cg": [
+                        [7.5,-2.5],
+                        [7.5,2.5],
+                        [3.6,-2.5],
+                        [3.6,2.5]
+                    ]
+                }
+            }
+        ]
+    },
+    "energy": {
+        "networks": [
+            {
+                "name": "Electric Energy Network",
+                "layout": [
+                    {
+                        "name": "Battery"
+                    },
+                    {
+                        "name": "Electric Motor",
+                        "rating": 0.8
+                    },
+                    {
+                        "name": "Propeller",
+                        "rotational_speed": 50
+                    }
+                ]
+            }
+        ]
+    }
+}

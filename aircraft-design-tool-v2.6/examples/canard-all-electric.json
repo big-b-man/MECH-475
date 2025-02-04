@@ -1,0 +1,454 @@
+{
+    "concept": {
+        "categories": {
+            "name": "New Concept",
+            "pairs": [
+                [
+                    1,
+                    0.14286
+                ],
+                [
+                    7,
+                    1
+                ]
+            ],
+            "categories": [
+                {
+                    "name": "Number of Passengers",
+                    "pairs": [
+                        [
+                            1,
+                            0.11111,
+                            9
+                        ],
+                        [
+                            9,
+                            1,
+                            0.11111
+                        ],
+                        [
+                            0.11111,
+                            9,
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "name": "Powerplant",
+                    "pairs": [
+                        [
+                            1,
+                            0.125
+                        ],
+                        [
+                            8,
+                            1
+                        ]
+                    ],
+                    "categories": [
+                        {
+                            "name": "Max Power Installed",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.14286,
+                                    9
+                                ],
+                                [
+                                    7,
+                                    1,
+                                    9
+                                ],
+                                [
+                                    0.11111,
+                                    0.11111,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Pollutant Emissions",
+                            "pairs": [
+                                [
+                                    1,
+                                    4,
+                                    0.11111
+                                ],
+                                [
+                                    0.25,
+                                    1,
+                                    0.11111
+                                ],
+                                [
+                                    9,
+                                    9,
+                                    1
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "designs": [
+            {
+                "name": "Helicopter"
+            },
+            {
+                "name": "Aircraft"
+            },
+            {
+                "name": "Paper Plane"
+            }
+        ]
+    },
+    "mission": {
+        "segments": [
+            {
+                "name": "A",
+                "type": "vertical_climb",
+                "energy_network": "Electric Vertical Energy Network",
+                "velocity": 5,
+                "altitude": [
+                    100,
+                    600
+                ]
+            },
+            {
+                "name": "B",
+                "type": "hover",
+                "energy_network": "Electric Vertical Energy Network",
+                "altitude": 600.0,
+                "time": 10.0 
+            },
+            {   
+                "name": "C",
+                "type": "climb",
+                "energy_network": "Electric Forward Energy Network",
+                "velocity": 60.0,
+                "altitude": [
+                        600.0,
+                        1500.0
+                    ],
+                "angle": 5
+            },
+            {
+                "name": "D",
+                "type": "cruise",
+                "energy_network": "Electric Forward Energy Network",
+                "velocity": 60,
+                "velocity_stall": 32,
+                "range": 20000,
+                "altitude": 1500
+            },
+            {
+                "name": "E",
+                "type": "descent",
+                "energy_network": "Electric Forward Energy Network",
+                "velocity": -40.0,
+                "altitude": [
+                    1500.0,
+                    600.0
+                ],
+                "angle": -5.0
+            },
+            {
+                "name": "E",
+                "type": "hold",
+                "energy_network": "Electric Forward Energy Network",
+                "velocity": 35,
+                "altitude": 600,
+                "time": 120
+            },
+            {
+                "name": "F",
+                "type": "hover",
+                "energy_network": "Electric Vertical Energy Network",
+                "altitude": 600,
+                "time": 10
+            },
+            {
+                "name": "G",
+                "type": "vertical_descent",
+                "energy_network": "Electric Vertical Energy Network",
+                "velocity": -4,
+                "altitude": [
+                    600,
+                    100
+                ]
+            }
+        ]
+    },
+    "vehicle": {
+        "components": [
+            {
+                "name": "Passenger",
+                "type": "mass.point",
+                "mass": 100,
+                "number": 2,
+                "position": {
+                    "cg": [
+                        [
+                            1.5,
+                            -0.6
+                        ],
+                        [
+                            1.5,
+                            0.6
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Empty Mass",
+                "type": "mass.empty",
+                "mass": 0,
+                "material": "composites",
+                "equation": {
+                    "type": "ax^(1+c)",
+                    "a": 0.92,
+                    "c": -0.05
+                }
+            },
+            {
+                "name": "Fuselage",
+                "type": "fuselage",
+                "interf_factor": 1.0,
+                "diameter": 2.2,
+                "length": 9.0,
+                "mass": 0,
+                "diameters": [1,1.8,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1]
+            },
+            {
+                "name": "Booms",
+                "type": "boom",
+                "mass": 0,
+                "number": 2,
+                "geometry":{
+                    "length": [6.15,6.15],
+                    "chord": [0.2,0.2],
+                    "tc_max": [0.09,0.09]
+                },
+                "position": {
+                    "structure": [
+                        [[1.65,2],
+                         [7.8,2]],
+                        [[1.65,-2],
+                        [7.8,-2]]
+                    ]
+                    }
+            },
+            {
+                "name": "Main Wing",
+                "type": "wing.main",
+                "interf_factor": 1.0,
+                "lift_to_drag_ratio": 16,
+                "aspect_ratio": 8.5,
+                "span": 9,
+                "oswald_efficiency": 0.85,
+                "airfoil": {
+                    "type": "naca0015",
+                    "tc_max": 0.15,
+                    "xc_max": 0.3,
+                    "lift_slope_coefficient": 6.2,
+                    "cl_max": 2.0
+                },
+                "sweep_le": 10.0,
+                "taper_ratio": 0.4,
+                "mass": 0,
+                "position": {
+                    "leading_edge": 7.5
+                }
+            },
+
+            {
+                "name": "Vertical Tail",
+                "type": "wing.vtail",
+                "interf_factor": 1.0,
+                "aspect_ratio": 5.0,
+                "half_span": 0.5,
+                "oswald_efficiency": 0.85,
+                "airfoil": {
+                    "type": "naca0015",
+                    "tc_max": 0.15,
+                    "xc_max": 0.3,
+                    "lift_slope_coefficient": 6.2,
+                    "cl_max": 2.0
+                },
+                "sweep_le": 10.0,
+                "taper_ratio": 0.4,
+                "mass": 0,
+                "position": {
+                    "leading_edge": 7.5
+                }
+            },
+            {
+                "name": "Canard",
+                "type": "wing.canard",
+                "interf_factor": 1.0,
+                "aspect_ratio": 5.0,
+                "span": 4,
+                "oswald_efficiency": 0.85,
+                "airfoil": {
+                    "type": "naca0015",
+                    "tc_max": 0.15,
+                    "xc_max": 0.3,
+                    "lift_slope_coefficient": 6.2,
+                    "cl_max": 2.0
+                    },
+                "sweep_le": 15,
+                "taper_ratio": 0.8,
+                "mass": 0,
+                "position": {
+                    "leading_edge": 0.4
+                            }
+            },
+            {
+                "name": "Battery",
+                "type": "energy.electric",
+                "source_type": "Li-S",
+                "efficiency": 0.9,
+                "usable_fraction": 0.80,
+                "reserve": 0.15,
+                "number_packs": {
+                    "series": 1,
+                    "parallel": 1
+                },
+                "volt": 12,
+                "mass": 0,
+                "position": {
+                    "cg": [
+                        [
+                            5,
+                            0
+                        ]
+                    ]
+                },
+                "recharge_location": "BC_Canada"
+            },
+            {
+                "name": "Propeller 1",
+                "type": "driver.prop",
+                "number": 2,
+                "number_blades": 2,
+                "radius": 0.8,
+                "rotor_solidity": 0.08,
+                "induced_power_factor": 1.15,
+                "base_drag_coefficient": 0.02,
+                "tip_velocity": 200,
+                "efficiency": 0.6,
+                "coaxial": "Yes",
+                "ducted": "Yes",
+                "mass": 0,
+                "position": {
+                    "cg": {
+                        "vtol":[
+                            [3.5,-2],
+                            [3.5,2]
+                        ]
+                    }
+                }
+            },
+            {
+                "name": "Propeller 2",
+                "type": "driver.prop",
+                "number": 2,
+                "number_blades": 2,
+                "radius": 1.2,
+                "rotor_solidity": 0.08,
+                "induced_power_factor": 1.15,
+                "base_drag_coefficient": 0.02,
+                "tip_velocity": 200,
+                "efficiency": 0.6,
+                "coaxial": "No",
+                "ducted": "No",
+                "mass": 0,
+                "position": {
+                    "cg": {
+                        "vtol":[
+                            [8,-2],
+                            [8,2]
+                        ]
+                    }
+                }
+            },
+            {
+                "name": "Electric Motor 1",
+                "type": "motor.prop",
+                "number": 2,
+                "efficiency": 0.88,
+                "mass": 0,
+                "max_power": 600000,
+                "position": {
+                    "cg": [
+                        [8,-2],
+                        [8,2]
+                    ]
+                }
+            },
+            {
+                "name": "Electric Motor 2",
+                "type": "motor.prop",
+                "number": 2,
+                "efficiency": 0.88,
+                "mass": 0,
+                "max_power": 600000,
+                "position": {
+                    "cg": [
+                        [9,-2.5],
+                        [9,2.5]
+                    ]
+                }
+            }
+        ]
+    },
+    "energy": {
+        "networks": [
+            {
+                "name": "Electric Vertical Energy Network",
+                "layout": [
+                    {
+                        "name": "Battery"
+                    },
+                    [
+                        {
+                            "name": "Electric Motor 1",
+                            "rating": 0.8,
+                            "number": 1
+                        },
+                        {
+                            "name": "Electric Motor 2",
+                            "rating": 0.8,
+                            "number": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Propeller 1"
+                        },
+                        {
+                            "name": "Propeller 2"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "Electric Forward Energy Network",
+                "layout": [
+                    {
+                        "name": "Battery"
+                    },
+                    {
+                        "name": "Electric Motor 2",
+                        "number": 2,
+                        "rating": 0.8
+                    },
+                    {
+                        "name": "Propeller 2",
+                        "number": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

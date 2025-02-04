@@ -1,0 +1,67 @@
+---------- adt-v1.0 ------------
+May19-2022: mass-analysis.m - Acceleration of gravity was included in Breguet function
+May20-2022: project-01.json - velocity_stall was included in cruise segment
+May20-2022: design_space_analysis.m - stall constraint was included
+---------- adt-v1.1 ------------
+June10-2022: project-01.json - span was included in main_wing and wing.htail, half_span was included in wing.vtail
+June10-2022: build_vehicle.m - changes were made to calculate chord using span
+June10-2022: aero_analysis.m - functions root_chord and sweep (for any position along the chord) were added
+June10-2022: aero_analysis.m - sweep_c4, root_chord and tip_chord are written in the JSON file
+---------- adt-v2.0 ------------
+June11-2022: mass_analysis.m - breguet equation for cruise was modified to account for network efficiency instead of just propeller efficiency
+June11-2022: project-01.json - included specific energy in fuel tank component
+June11-2022: project-01.json - included recharging network in energy networks, and added two energy networks to recharging cruise segment
+June11-2022: mass_analysis.m - calculate required and current battery energies during mission
+June11-2022: build_mission.m - calculate mission performance for cruise_recharge segment
+June12-2022: design_space_analysis.m - constraints for recharge_cruise segment were included
+June12-2022: mass_analysis.m - major bug detected: mass of vehicle was originally being subtracted by total mass of fuel; instead, it should only be subtracted by mass of fuel spent in that segment
+June12-2022: plot_mission.m - plot recharge_cruise
+June13-2022: mass_analysis.m - fuel and battery reserve were moved from sum_masses to mtow_error function
+---------- adt-v2.1 ------------
+June14-2022: mass_analysis.m - recharging network efficiency was removed from breguet equation
+June14-2022: example-01.json - add parameter k indicating fraction of fuel for recharging (recharge network)
+June14-2022: mass_analysis.m - parameter k was added to Breguet equation
+June14-2022: mass_analysis.m - energies were corrected based on fraction of fuel burn for recharging only
+---------- adt-v2.2 ------------
+June26-2022: mass_analysis.m - corrected recharge_cruise 
+June26-2022: mass_analysis.m - included hybrid_cruise segment (battery and fuel)
+June26-2022: plot_mission.m - included hybrid_cruise segment
+June26-2022: build_mission.m - included hybrid_cruise segment
+June26-2022: mass_analysis.m - included aircraft weight at beginning and end of each segment (for airfoil selection purposes) - stored in mission segments.
+June28-2022: design_space_analysis.m - stall speed constraint was added to hybrid_cruise segment
+June28-2022: plot_mission.m - included electric_recharge_cruise segment
+June28-2022: build_mission.m - included electric_recharge_cruise segment
+June28-2022: mass_analysis.m - included electric_recharge_cruise segment
+---------- adt-v2.3 ------------
+June29-2022: plot_aircraft.m - function that plots planform shape of aircraft
+June30-2022: aero_analysis.m - root, tip and mean chord calculations, as well as ref area equations were corrected (area results remain the same, but consider AR and span instead of span and m.a.c)
+June30-2022: build_vehicle.m - most wing and tail geometric parameters are now determined in this function instead of aero_analysis.m
+July15-2022: mass_analysis.m - energy_current in electric_recharge_cruise was corrected (negative values of energy were being allowed)
+July26-2022: mass_analysis.m - vehicle mass throughout mission profile was corrected to not subtract empty mass
+---------- adt-v2.4 ------------
+Feb-17-2023: aero_analysis.m - wing reference area was corrected
+Feb-19-2023: build_vehicle.m - argument data.mission was eliminated (not being used)
+Feb-19-2023: mass_analysis.m - l/d was estimated using bi-plane method
+Feb-19-2023: lift-cruise.json - variable mutual_interf was included in wing (accounts for mutual intereference of wing in other stabilizers)
+Feb-19-2023: lift-cruise.json - variable lift-to-drag-ratio was included in main wing
+Feb-20-2023: plot_aircraft.m - Vertical tail plot was using variables from horizontal tail; canard and secondary wing were added.
+Feb-20-2023: mass_analysis.m - Pie chart with mass distribution
+Feb-21-2023: mass_analysis.m - calculate expected c-rate during recharging cruise segment
+Feb-21-2023: mass_analysis.m - battery_reserve_sOc was eliminated, only final sOc was kept; variable reserve_mass was added to both fuel and batteries.
+Feb-21-2023: lift_cruise.json - included number of battery cells in parallel and series
+---------- adt-v2.5 ------------
+Mar-10-2023: lift_cruise.json - added field "number" to mass.point, engine and generator types
+Mar-10-2023: mass_analysis.m - included number of components in mass calculations for pie chart
+---------- adt-v2.6 ------------
+Jan-22-2024: adt.m - created a global variable "databases" containing source types (currently only fuel, battery types to be added soon), specific energy, CO2 emissions, and gwp per region.
+Jan-22-2024: adt.m - created a function "find_data.m" that finds all data associated to a string (currently, either region or fuel type).
+Jan-22-2024: adt.m - created a function "read_file.m" to copy data from .txt files in databases.
+Jan-22-2024: mass_analysis.m - corrected fuel fraction calculation by including ratio of specific energies of jet fuel (assuming formulae from Corke consider jet fuel) and chosen fuel. Segments affected were taxi, climb, acceleration, cruise, endurance, landing, hybrid_cruise and recharge_cruise. 
+Jan-23-2024: plot_aircraft.m - booms and respective c.g. location are being plotted
+Jan-23-2024: mass_analysis.m - mass of booms was added (number x individual mass)
+Jan-29-2024: design_space_analysis.m - corrected typo in calculating disk loading.
+Jan-29-2024: mass_analysis.m - added "energy.hydrogen", "tank", "valve" and "fuel_cell" component types.
+Jan-30-2024: emissions.m - added to the tool.
+Feb-02-2024: design_space_analysis.m - effect of coaxial rotors has been added to hover, vertical climb and vertical descent constraints
+Feb-04-2024: some typos were corrected.
+Mar-28-2024: design_space_analysis.m - rotor/prop efficiency was removed from hover/vertical climb constraints
