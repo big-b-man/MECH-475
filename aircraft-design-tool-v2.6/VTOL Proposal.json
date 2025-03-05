@@ -240,6 +240,14 @@
     "vehicle": {
         "components": [
             {
+                "name": "Fuselage",
+                "type": "fuselage",
+                "interf_factor": 1.0,
+                "diameter": 2.2,
+                "length": 9.0,
+                "mass": 250,
+                "diameters": [1,1.8,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1]
+            },{
                 "name": "Battery",
                 "type": "energy.electric",
                 "source_type": "Li-S",
@@ -274,7 +282,7 @@
                     },
                 "fuel_type": "kerosene"
             },{
-                "name": "Electric Motor 1",
+                "name": "Electric Motor",
                 "type": "motor.prop",
                 "number": 4,
                 "efficiency": 0.8,
@@ -354,17 +362,17 @@
                 ]
             },
             {
-                "name": "Electric Energy Network",
+                "name": "Batteries",
                 "layout": [
                     {
                         "name": "Battery"
                     },
                     {
-                        "name": "Electric Motor 1",
+                        "name": "Electric Motor",
                         "rating": 0.7
                     },
                     {
-                        "name": "Propeller 1"
+                        "name": "Propeller"
                     }
                 ]
             },
