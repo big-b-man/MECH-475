@@ -1,0 +1,394 @@
+{
+    "concept": {
+        "categories": {
+            "name": "New Concept",
+            "pairs": [
+                [1,5,6],
+                [0.2,1,2],
+                [0.17,0.5,1]
+            ],
+            "categories": [
+                {
+                    "name": "Public Impact",
+                    "pairs": [
+                        [1,3],
+                        [0.33,1]
+                    ],
+                    "categories": [
+                        { "name": "Noise",
+                        "pairs": [
+                            [1,9,9,5,9],
+                            [0.11,1,1,8,7],
+                            [0.11,1,1,6,8],
+                            [0.2,0.125,0.2,1,1],
+                            [0.11,0.1428,0.125,1,1]
+                        ]},
+                        {
+                            "name": "Safety",
+                            "pairs": [
+                                [1,0.33,0.16,2,0.25],
+                                [3,1,1,4,0.5],
+                                [6,1,1,5,2],
+                                [0.5,0.25,0.2,1,0.166],
+                                [0.25,2,0.5,6,1]
+                            ]
+                        }
+                        
+                    ]
+                    
+                },
+                {
+                    "name": "Design Parameters",
+                    "pairs": [
+                        [1,2,3],
+                        [0.5,1,4],
+                        [0.33,0.25,1]
+                    ],
+                    "categories": [
+                        {
+                            "name": "Range",
+                            "pairs": [
+                                [1,0.2,0.2,1,0.2],
+                                [5,1,1,5,5],
+                                [5,1,1,5,3],
+                                [1,0.2,0.2,1,0.2],
+                                [5,0.2,0.33,5,1]
+                            ]
+                        },
+                        {
+                            "name": "Capacity",
+                            "pairs": [
+                                [1,0.2,0.16,0.2,0.2],
+                                [5,1,0.25,0.25,0.5],
+                                [6,4,1,0.33,0.5],
+                                [5,4,3,1,1],
+                                [5,2,2,1,1]
+                            ]
+                        },
+                        {
+                            "name": "Speed",
+                            "pairs": [
+                                [1,0.25,0.2,1,0.1428],
+                                [4,1,1,6,1],
+                                [5,1,1,5,0.25],
+                                [1,0.166,0.2,1,0.2],
+                                [7,1,4,5,1]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Design Principles",
+                    "pairs": [
+                        [1,5,6],
+                        [0.2,1,6],
+                        [0.17,0.17,1]
+                    ],
+                    "categories": [
+                        {
+                            "name": "Simplicity",
+                            "pairs": [
+                                [1,0.1428,2,0.33,0.2],
+                                [7,1,4,4,1],
+                                [0.5,0.25,1,2,0.166],
+                                [3,0.25,0.5,1,0.33],
+                                [5,1,6,3,1]
+                            ]
+                        },
+                        {
+                            "name": "Originality",
+                            "pairs": [
+                                [1,4,4,2,2],
+                                [0.25,1,4,0.33,0.2],
+                                [0.25,0.25,1,0.5,0.5],
+                                [0.5,3,2,1,2],
+                                [0.5,5,2,0.33,1]
+                            ]
+                        },
+                        {
+                            "name": "Aesthetics",
+                            "pairs": [
+                                [1,0.25,4,4,2],
+                                [4,1,1,3,0.2],
+                                [0.25,1,1,2,3],
+                                [0.25,0.33,0.5,1,2],
+                                [0.5,5,0.33,0.5,1]
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+            },
+            "designs": [
+                {
+                    "name": "Tilt Octocopter"
+                },
+                {
+                    "name": "VTOL Blended Wing"
+                },
+                {
+                    "name": "VTOL TiltWing "
+                },
+                {
+                    "name": "Tandem Synchropter"
+                },
+                {
+                    "name": "Hybrid Lift"
+                }
+        ]
+    },
+    "mission": {
+        "segments": [
+            {
+                "name": "M1-M2",
+                "type": "vertical_climb",
+                "energy_network": "Batteries",
+                "time": "312",
+                "velocity": 4.0,
+                "altitude": [
+                        0.0,
+                        1250
+                        ]
+            },{
+                "name": "M2-M3",
+                "type": "recharge_cruise",
+                "energy_network_recharge": "Gas Turbine",
+                "energy_network_prop": "Batteries",
+                "velocity": 55.56,
+                "velocity_stall": 0,
+                "range": 150000.0,
+                "altitude": 1250
+            },{
+                "name": "M3-M4",
+                "type": "vertical_descent",
+                "energy_network": "Batteries",
+                "velocity": -4.0,
+                "altitude": [
+                        1250,
+                        300
+                        ]
+            },{
+                "name": "M4-M5",
+                "type": "hold",
+                "energy_network": "Batteries",
+                "velocity": 0,
+                "time": 900,      
+                "altitude": 300   
+            },{
+                "name": "M5-M6",
+                "type": "vertical_descent",
+                "energy_network": "Batteries",
+                "velocity": -4.0,
+                "altitude": [
+                        300,
+                        0
+                        ]
+            },{
+                "name": "M6-M7",
+                "type": "landing",
+                "energy_network": "Fuel Energy Network @ idle",
+                "time": 900,
+                "altitude": 0.0
+            },{
+                "name": "M7-M8",
+                "type": "vertical_climb",
+                "energy_network": "Batteries",
+                "time": "312",
+                "velocity": 4.0,
+                "altitude": [
+                        0.0,
+                        1250
+                        ]
+            },{
+                "name": "M8-M9",
+                "type": "recharge_cruise",
+                "energy_network_recharge": "Gas Turbine",
+                "energy_network_prop": "Batteries",
+                "velocity": 55.56,
+                "velocity_stall": 0,
+                "range": 150000.0,
+                "altitude": 1250
+            },{
+                "name": "M9-M10",
+                "type": "vertical_descent",
+                "energy_network": "Batteries",
+                "velocity": -4.0,
+                "altitude": [
+                        1250,
+                        300
+                        ]
+            },{
+                "name": "M10-M11",
+                "type": "hold",
+                "energy_network": "Batteries",
+                "velocity": 0,
+                "time": 900,      
+                "altitude": 300   
+            },{
+                "name": "M11-M12",
+                "type": "vertical_descent",
+                "energy_network": "Batteries",
+                "velocity": -4.0,
+                "altitude": [
+                        300,
+                        0
+                        ]
+            }            
+        ]
+    },
+    "vehicle": {
+        "components": [
+            {
+                "name": "Battery",
+                "type": "energy.electric",
+                "source_type": "Li-S",
+                "efficiency": 0.9,
+                "usable_fraction": 0.80,
+                "reserve": 0.15,
+                "number_packs": {
+                    "series": 315,
+                    "parallel": 1
+                },
+                "volt": 630,
+                "mass": 0,
+                "position": {
+                    "cg": [
+                            [
+                                0,
+                                0
+                            ]
+                        ]
+                    },
+                "recharge_location": "Italy"
+            },{
+                "name": "Fuel Tank",
+                "type": "energy.fuel",
+                "specific_energy": 46000000,
+                "reserve": 0.06,
+                "mass": 145.6,
+                "position": {
+                    "cg": [
+                            [0,0]
+                        ]
+                    },
+                "fuel_type": "kerosene"
+            },{
+                "name": "Electric Motor 1",
+                "type": "motor.prop",
+                "number": 4,
+                "efficiency": 0.8,
+                "mass": 26,
+                "max_power": 400000,
+                "position": {
+                    "cg": [
+                        [0,0],
+                        [0,0],
+                        [0,0],
+                        [0,0]
+                        ]
+                    }
+            },{
+                "name": "Generator",
+                "type": "generator",
+                "efficiency": 0.7,
+                "mass": 175.1,
+                "number": 1,
+                "position": {
+                    "cg": [
+                        [0,0]
+                        ]
+                    }
+            },{
+                "name": "Propeller",
+                "type": "driver.prop",
+                "number": 8,
+                "number_blades": 2,
+                "radius": 1.5,
+                "rotor_solidity": 0.01,
+                "induced_power_factor": 1.1,
+                "base_drag_coefficient": 0.01,
+                "tip_velocity": 137.2,
+                "efficiency": 0.8,
+                "mass": 1,
+                "position": {
+                    "cg": {
+                        "vtol":[
+                            [0,0],
+                            [0,0],
+                            [0,0],
+                            [0,0],
+                            [0,0],
+                            [0,0],
+                            [0,0],
+                            [0,0]
+                            ]
+                        }
+                    }
+            }
+        ]
+    },
+    "energy": {
+        "networks": [
+            {
+                "name": "Fuel Energy Network @ Forward Flight",
+                "layout": [
+                    {
+                        "name": "Fuel Tank"
+                    },
+                    {
+                        "name": "Turboshaft",
+                        "brake_specific_fuel_consumption": 4.25e-8,
+                        "rating": 0.80
+                    },
+                    {
+                        "name": "Generator"
+                    },
+                    {
+                        "name":"Electric Motor 2",
+                        "rating": 0.8
+                    },
+                    {
+                        "name": "Propeller 2"
+                    }
+                ]
+            },
+            {
+                "name": "Electric Energy Network",
+                "layout": [
+                    {
+                        "name": "Battery"
+                    },
+                    {
+                        "name": "Electric Motor 1",
+                        "rating": 0.7
+                    },
+                    {
+                        "name": "Propeller 1"
+                    }
+                ]
+            },
+            {
+                "name": "Recharge network",
+                "layout": [
+                    {
+                        "name": "Fuel Tank"
+                    },
+                    {
+                        "name": "Turboshaft",
+                        "brake_specific_fuel_consumption": 2.55e-8,
+                        "efficiency": 0.75,
+                        "fuel_weight_fraction": 0.35
+                    },
+                    {
+                        "name": "Generator"
+                    },
+                    {
+                        "name": "Battery",
+                        "efficiency": 1.0
+                    }
+                ]
+            }
+        ]
+    }
+}
