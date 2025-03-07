@@ -153,8 +153,8 @@
             },{
                 "name": "M2-M3",
                 "type": "recharge_cruise",
-                "energy_network_recharge": "Gas Turbine",
-                "energy_network_prop": "Batteries",
+                "energy_network_recharge": "Recharge network",
+                "energy_network_prop": "Gas Turbine",
                 "velocity": 55.56,
                 "velocity_stall": 0,
                 "range": 150000.0,
@@ -187,7 +187,7 @@
             },{
                 "name": "M6-M7",
                 "type": "landing",
-                "energy_network": "Fuel Energy Network @ idle",
+                "energy_network": "Batteries",
                 "time": 900,
                 "altitude": 0.0
             },{
@@ -203,8 +203,8 @@
             },{
                 "name": "M8-M9",
                 "type": "recharge_cruise",
-                "energy_network_recharge": "Gas Turbine",
-                "energy_network_prop": "Batteries",
+                "energy_network_recharge": "Recharge network",
+                "energy_network_prop": "Gas Turbine",
                 "velocity": 55.56,
                 "velocity_stall": 0,
                 "range": 150000.0,
@@ -339,7 +339,7 @@
     "energy": {
         "networks": [
             {
-                "name": "Fuel Energy Network @ Forward Flight",
+                "name": "Gas Turbine",
                 "layout": [
                     {
                         "name": "Fuel Tank"
@@ -353,11 +353,11 @@
                         "name": "Generator"
                     },
                     {
-                        "name":"Electric Motor 2",
+                        "name":"Electric Motor 1",
                         "rating": 0.8
                     },
                     {
-                        "name": "Propeller 2"
+                        "name": "Propeller"
                     }
                 ]
             },
@@ -368,7 +368,7 @@
                         "name": "Battery"
                     },
                     {
-                        "name": "Electric Motor",
+                        "name": "Electric Motor 1",
                         "rating": 0.7
                     },
                     {
